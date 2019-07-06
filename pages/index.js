@@ -3,12 +3,19 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 
-const Home = () => (
-  <div>
+import X from '../components/Comp'
+
+const Home = () => 
+   {
+    const Category = () => <div>Category</div>
+    const ProductsList = () => <div>ProductsList</div>
+ return <div>
     <Head title="Home" />
     <Nav />
 
     <div className="hero">
+      <X/>
+      <Link href="ProductList" as="ProductLists/123456">123</Link>
       <h1 className="title">Welcome to Next!</h1>
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.
@@ -38,7 +45,8 @@ const Home = () => (
         </Link>
       </div>
     </div>
-
+  
+   
     <style jsx>{`
       .hero {
         width: 100%;
@@ -85,7 +93,7 @@ const Home = () => (
         color: #333;
       }
     `}</style>
-  </div>
-)
+  </div>}
+
 
 export default Home
