@@ -15,7 +15,7 @@ const Home = () =>
 
     <div className="hero">
       <X/>
-      <Link href="/ProductList" >123</Link>
+      <Link href="./ProductList?abc=def" as="ProductList"><a>123</a></Link>
       <h1 className="title">Welcome to Next!</h1>
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.

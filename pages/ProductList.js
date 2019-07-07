@@ -1,5 +1,8 @@
-
 import React from "react";
-const ProductList = (props) => (<div>ProductsList{props.url && props.url.query.title}</div>);
+import { withRouter } from 'next/router'
+const ProductList = props => {
+  console.log(props.router);
+  return <div>ProductsList{props.router.pathname}</div>;
+};
 
-export default ProductList;
+export default withRouter(ProductList)
