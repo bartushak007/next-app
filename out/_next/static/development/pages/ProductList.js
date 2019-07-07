@@ -48,21 +48,22 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\rmnbr\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\testfolder\\next-app\\pages\\ProductList.js";
 
 
-var ProductsList = function ProductsList(props) {
+var ProductList = function ProductList(props) {
+  console.log(props);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
   }, "ProductsList", props.url && props.url.query.title);
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (ProductsList);
+/* harmony default export */ __webpack_exports__["default"] = (ProductList);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!************************************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FProductList&absolutePagePath=C%3A%5CUsers%5Crmnbr%5COneDrive%5C%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D1%96%D0%BB%5Ctestfolder%5Cnext-app%5Cpages%5CProductList.js ***!
   \************************************************************************************************************************************************************************************************************************************/
@@ -85,5 +86,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=ProductList.js.map
